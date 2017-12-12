@@ -1,0 +1,26 @@
+<form #mainForm="ngForm" (change)="onChange(mainForm.value)" (ngSubmit)="onSubmit(mainForm.value)">
+  <div class="form-group">
+    <label for="S">Stock Price</label>
+    <input type="text" class="form-control" id="S" name="S" placeholder="Stock Price" [ngModel]="model.S">
+  </div>
+  <div class="form-group">
+    <label for="K">Strike price of option</label>
+    <input type="text" class="form-control" id="K" name="K" placeholder="Strike price of option" [ngModel]="model.K">
+  </div>
+  <div class="form-group">
+    <label>Risk-free interest rate</label>
+    <input type="text" class="form-control" id="R" name="R" placeholder="Stock Price" [ngModel]="model.R">
+  </div>
+  <div class="form-group">
+    <label>Time to expiration in years</label>
+    <input type="text" class="form-control" id="T" name="T" placeholder="Time to expiration in years" [ngModel]="model.T">
+  </div>
+  <div class="form-group">
+    <label>Volatility</label>
+    <input type="text" class="form-control" id="V" name="V" placeholder="Volatility" [ngModel]="model.V">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="button" class="btn btn-primary" (click)="mainForm.reset(model)">Cancel</button>
+</form>
+<h1>Call: {{callResult}}</h1>
+<h1>Put: {{putResult}}</h1>

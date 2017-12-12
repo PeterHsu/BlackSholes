@@ -1,0 +1,8 @@
+D:\github\BlackScholes\BlackSholes\bin\Debug\netstandard2.0\BlackSholes.deps.json
+D:\github\BlackScholes\BlackSholes\bin\Debug\netstandard2.0\BlackSholes.dll
+D:\github\BlackScholes\BlackSholes\bin\Debug\netstandard2.0\BlackSholes.pdb
+D:\github\BlackScholes\BlackSholes\obj\Debug\netstandard2.0\BlackSholes.csproj.CoreCompileInputs.cache
+D:\github\BlackScholes\BlackSholes\obj\Debug\netstandard2.0\BlackSholes.AssemblyInfoInputs.cache
+D:\github\BlackScholes\BlackSholes\obj\Debug\netstandard2.0\BlackSholes.AssemblyInfo.cs
+D:\github\BlackScholes\BlackSholes\obj\Debug\netstandard2.0\BlackSholes.dll
+D:\github\BlackScholes\BlackSholes\obj\Debug\netstandard2.0\BlackSholes.pdb
